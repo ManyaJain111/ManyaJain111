@@ -4,10 +4,7 @@
 <img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="250"/>
 </p>
 
-<br/>
-<br/>
-
-<h3 align="center">ManyaJain111</h3>
+<h3 align="center">I am I</h3>
 
 <p align="center"><i><h4>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, ML, and building things that only work on my computer.</h3></i></p>
 
