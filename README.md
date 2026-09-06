@@ -14,23 +14,12 @@
 
 <br/>
 
-<p align="center">
-<img src="https://github-stats-extended.vercel.app/api?username=ManyaJain111&show_icons=true&hide_title=true&hide_border=true&theme=dracula" height="150"/>
-<img src="https://github-stats-extended.vercel.app/api/top-langs?username=ManyaJain111&langs_count=4&hide_border=true&theme=dracula" height="150"/>
-</p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="150"/>
+<img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="250"/>
 </p>
 
 <br/>
 
-<p align="center">black cat, orange eyes, chaotic &mdash; <i>usually asleep on the keyboard</i></p>
-
-<br/>
-
-<p align="center">
-<img src="https://github-readme-quotes-bay.vercel.app/quote?theme=dracula" alt="random quote"/>
-</p>
 
 </div>
