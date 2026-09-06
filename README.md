@@ -1,12 +1,15 @@
 <div align="center">
 
-<img src="./ghibli-banner.svg" width="100%" alt="banner"/>
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="250"/>
+</p>
 
+<br/>
 <br/>
 
 <h3 align="center">ManyaJain111</h3>
 
-<p align="center"><i>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, ML, and building things that only work on my computer.</i></p>
+<p align="center"><h2>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, ML, and building things that only work on my computer.</h2></p>
 
 <br/>
 
@@ -15,11 +18,7 @@
 <br/>
 
 
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="250"/>
-</p>
 
-<br/>
 
 
 </div>
