@@ -6,7 +6,7 @@
 
 <h3 align="center">ManyaJain111</h3>
 
-<p align="center"><i>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, signals, and building things that mostly work.</i></p>
+<p align="center"><i>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, ML, and building things that only work on my computer.</i></p>
 
 <br/>
 
