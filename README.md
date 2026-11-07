@@ -1,12 +1,12 @@
-![Live status](assets/status-20261107-2003.svg)
+![Live status](assets/status-20261108-0116.svg)
 
 <!--
 ```json
 {
-  "status": "Using Quick Attack on a deadline",
+  "status": "Gengar hours: coding in the dark",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "27°C",
+    "temperature": "22°C",
     "condition": "Overcast "
   },
   "github": {
@@ -20,11 +20,11 @@
     "latest_active_repo": "dvd-assignment",
     "last_commit": "2026-10-26T16:52:39Z",
     "last_commit_message": "\"222239IST261026\" Save working tree",
-    "current_streak": 6,
+    "current_streak": 7,
     "longest_streak": 12,
     "commits_last_7_days": 6,
-    "open_issues": 17,
-    "open_prs": 12,
+    "open_issues": 18,
+    "open_prs": 13,
     "total_repos": 22,
     "total_stars": 7,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-07 20:03 IST"
+  "updated": "2026-11-08 01:16 IST"
 }
 ```
 -->
