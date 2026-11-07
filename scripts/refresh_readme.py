@@ -294,18 +294,19 @@ def wrap(text, width, rows):
 
 
 def render_header():
-    """Poké Ball emblem, indicator lights, swapped header typography and divider."""
+    """Poké Ball emblem, indicator lights, handle with dex label, and divider."""
     return f"""
 <!-- Poké Ball emblem -->
 <circle cx="78" cy="62" r="40" fill="#fff" stroke="{INK}" stroke-width="3"/>
 <path d="M38 62 A40 40 0 0 1 118 62 H38 Z" fill="{RED}"/>
 <path d="M38 62 H118" fill="none" stroke="{INK}" stroke-width="6"/>
 <circle cx="78" cy="62" r="11" fill="#fff" stroke="{INK}" stroke-width="4"/>
-<circle cx="150" cy="34" r="9" fill="#ef3e3e" stroke="{INK}" stroke-width="2"/>
-<circle cx="178" cy="34" r="9" fill="{YELLOW}" stroke="{INK}" stroke-width="2"/>
-<circle cx="206" cy="34" r="9" fill="#3cc767" stroke="{INK}" stroke-width="2"/>
-<text x="140" y="86" class="title">@{escape(USERNAME.upper())}</text>
-<text x="430" y="84" class="handle">TRAINER DEX</text>
+<!-- Lights and title share the left edge x=140 and centre on the emblem -->
+<circle cx="150" cy="40" r="9" fill="#ef3e3e" stroke="{INK}" stroke-width="2"/>
+<circle cx="178" cy="40" r="9" fill="{YELLOW}" stroke="{INK}" stroke-width="2"/>
+<circle cx="206" cy="40" r="9" fill="#3cc767" stroke="{INK}" stroke-width="2"/>
+<!-- tspans flow inline, so the label never overlaps whatever font loads -->
+<text x="140" y="92"><tspan class="title">@{escape(USERNAME.upper())}</tspan><tspan class="handle" dx="18">TRAINER DEX</tspan></text>
 <path d="M0 118 H560 L600 146 H960" fill="none" stroke="{INK}" stroke-width="3"/>
 <path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="{YELLOW}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>
 """
@@ -405,12 +406,13 @@ def render_footer(data):
 
 def render_svg(data):
     mono = "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
-    sans = "'Trebuchet MS', Verdana, 'Segoe UI', sans-serif"
+    # System fonts render consistently on GitHub (Mac, Windows, Linux, mobile)
+    sans = "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Live status for {USERNAME}: {escape(data["status"])}">
 <style>
-.title {{ font: 800 26px {sans}; fill:{INK}; letter-spacing: 2px; }}
-.handle {{ font: 700 16px {mono}; fill:{SLATE}; letter-spacing: 1px; }}
+.title {{ font: 800 28px {sans}; fill:{INK}; letter-spacing: .5px; }}
+.handle {{ font: 700 13px {mono}; fill:{SLATE}; letter-spacing: .18em; }}
 .lcd-k {{ font: 700 11px {mono}; fill:{LCD_INK}; letter-spacing: .18em; }}
 .lcd {{ font: 13px {mono}; fill:{LCD_INK}; }}
 .status {{ font: 800 27px {sans}; fill:{LCD_INK}; }}
