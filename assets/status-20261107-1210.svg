@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Live status for ManyaJain111: Healing up at the Pokémon Center">
+<style>
+.title { font: 800 26px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#fff; letter-spacing: 2px; }
+.handle { font: 700 16px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1b1b1f; letter-spacing: 1px; }
+.lcd-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1e3a1e; letter-spacing: .18em; }
+.lcd { font: 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1e3a1e; }
+.status { font: 800 27px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1e3a1e; }
+.repo { font: 700 21px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1e3a1e; }
+.msg { font: italic 14px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1e3a1e; opacity:.85; }
+.stat-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#d8d8de; letter-spacing: .14em; }
+.stat-v { font: 700 18px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#fff; }
+.chip { font: 700 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1b1b1f; }
+.foot-k { font: 800 14px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#fff; letter-spacing: 2px; }
+.foot { font: 12px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#fff; }
+</style>
+<rect x="2" y="2" width="956" height="596" rx="28" fill="#d4919c" stroke="#9e5a67" stroke-width="4"/>
+
+<circle cx="78" cy="62" r="40" fill="#fff" stroke="#1b1b1f" stroke-width="3"/>
+<circle cx="78" cy="62" r="30" fill="#2a9fe0" stroke="#1b1b1f" stroke-width="2"/>
+<circle cx="68" cy="51" r="9" fill="#fff" opacity=".75"/>
+<circle cx="150" cy="34" r="9" fill="#ff4d4d" stroke="#1b1b1f" stroke-width="2"/>
+<circle cx="178" cy="34" r="9" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/>
+<circle cx="206" cy="34" r="9" fill="#4cd964" stroke="#1b1b1f" stroke-width="2"/>
+<text x="140" y="86" class="title">TRAINER DEX</text>
+<text x="352" y="86" class="handle">@MANYAJAIN111</text>
+<path d="M0 118 H560 L600 146 H960" fill="none" stroke="#1b1b1f" stroke-width="3"/>
+<path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2.5" stroke-linejoin="round"/>
+    
+
+<rect x="40" y="166" width="520" height="350" rx="16" fill="#dedede" stroke="#1b1b1f" stroke-width="3"/>
+<circle cx="276" cy="180" r="4" fill="#b0475b"/><circle cx="298" cy="180" r="4" fill="#b0475b"/>
+<rect x="64" y="192" width="472" height="278" rx="8" fill="#9bc79b" stroke="#1b1b1f" stroke-width="2"/>
+<text x="88" y="216" class="lcd-k">RIGHT NOW</text>
+<text x="88" y="256" class="status">Healing up at the Pokémon</text><text x="88" y="290" class="status">Center</text>
+<text x="88" y="334" class="lcd">HABITAT  Hyderabad · 31°C · Sunny</text>
+<line x1="88" y1="350" x2="512" y2="350" stroke="#1e3a1e" stroke-width="1" stroke-dasharray="4 4" opacity=".5"/>
+<text x="88" y="374" class="lcd-k">LAST SEEN  ·  11D AGO</text>
+<text x="88" y="402" class="repo">dvd-assignment</text>
+<text x="88" y="424" class="msg">“&quot;222239IST261026&quot; Save working tree”</text>
+<circle cx="84" cy="494" r="10" fill="#b0475b" stroke="#1b1b1f" stroke-width="2"/>
+<g stroke="#1b1b1f" stroke-width="3" stroke-linecap="round">
+  <line x1="470" y1="488" x2="530" y2="488"/><line x1="470" y1="497" x2="530" y2="497"/><line x1="470" y1="506" x2="530" y2="506"/>
+</g>
+
+
+<rect x="590" y="166" width="330" height="350" rx="12" fill="#1d1d23" stroke="#1b1b1f" stroke-width="3"/>
+<text x="610" y="194" class="lcd-k" style="fill:#ffcb05">BASE STATS</text>
+<text x="610" y="224" class="stat-k">REPOS</text><text x="900" y="224" class="stat-v" text-anchor="end">22</text><rect x="610" y="233" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="233" width="128" height="9" rx="4.5" fill="#ffcb05"/><text x="610" y="274" class="stat-k">STARS</text><text x="900" y="274" class="stat-v" text-anchor="end">0</text><rect x="610" y="283" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="283" width="0" height="9" rx="4.5" fill="#ffcb05"/><text x="610" y="324" class="stat-k">COMMITS / WEEK</text><text x="900" y="324" class="stat-v" text-anchor="end">2</text><rect x="610" y="333" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="333" width="14" height="9" rx="4.5" fill="#ffcb05"/><text x="610" y="374" class="stat-k">OPEN ISSUES</text><text x="900" y="374" class="stat-v" text-anchor="end">15</text><rect x="610" y="383" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="383" width="290" height="9" rx="4.5" fill="#ffcb05"/><text x="610" y="424" class="stat-k">OPEN PRS</text><text x="900" y="424" class="stat-v" text-anchor="end">11</text><rect x="610" y="433" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="433" width="290" height="9" rx="4.5" fill="#ffcb05"/><text x="610" y="474" class="stat-k">BEST STREAK</text><text x="900" y="474" class="stat-v" text-anchor="end">12 d</text><rect x="610" y="483" width="290" height="9" rx="4.5" fill="#3a3a44"/><rect x="610" y="483" width="116" height="9" rx="4.5" fill="#ffcb05"/>
+
+
+<text x="40" y="556" class="foot-k">MOVES</text>
+<rect x="124" y="538" width="154" height="26" rx="13" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/><text x="201" y="556" class="chip" text-anchor="middle">Jupyter Notebook</text><rect x="288" y="538" width="74" height="26" rx="13" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/><text x="325" y="556" class="chip" text-anchor="middle">Python</text><rect x="372" y="538" width="58" height="26" rx="13" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/><text x="401" y="556" class="chip" text-anchor="middle">HTML</text><rect x="440" y="538" width="50" height="26" rx="13" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/><text x="465" y="556" class="chip" text-anchor="middle">C++</text><rect x="500" y="538" width="50" height="26" rx="13" fill="#ffcb05" stroke="#1b1b1f" stroke-width="2"/><text x="525" y="556" class="chip" text-anchor="middle">CSS</text>
+<text x="920" y="556" class="foot" text-anchor="end">updated 2026-11-07 12:10 IST</text>
+
+</svg>

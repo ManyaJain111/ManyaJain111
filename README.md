@@ -1,21 +1,35 @@
-<div align="center">
+![Live status](assets/status-20261107-1210.svg)
 
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=ManyaJain111&hide_border=true&theme=dracula" height="250"/>
-</p>
-
-<h3 align="center">I am I</h3>
-
-<p align="center"><i><h4>I like breaking simple problems into complex ones, fixing those, and pretending that was the plan all along. Interested in systems, ML, and building things that only work on my computer.</h3></i></p>
-
-<br/>
-
-<p align="center">Drawing &nbsp;&middot;&nbsp; Sleeping &nbsp;&middot;&nbsp; Hackathons &nbsp;&middot;&nbsp; Movies & TV</p>
-
-<br/>
-
-
-
-
-
-</div>
+<!--
+```json
+{
+  "status": "Healing up at the Pokémon Center",
+  "weather": {
+    "location": "Hyderabad",
+    "temperature": "31°C",
+    "condition": "Sunny"
+  },
+  "github": {
+    "top_languages": [
+      "Jupyter Notebook",
+      "Python",
+      "HTML",
+      "C++",
+      "CSS"
+    ],
+    "latest_active_repo": "dvd-assignment",
+    "last_commit": "2026-10-26T16:52:39Z",
+    "last_commit_message": "\"222239IST261026\" Save working tree",
+    "current_streak": 6,
+    "longest_streak": 12,
+    "commits_last_7_days": 2,
+    "open_issues": 15,
+    "open_prs": 11,
+    "total_repos": 22,
+    "total_stars": 0,
+    "most_starred_repo": null
+  },
+  "updated": "2026-11-07 12:10 IST"
+}
+```
+-->
