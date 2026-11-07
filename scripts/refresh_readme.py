@@ -294,16 +294,18 @@ def wrap(text, width, rows):
 
 
 def render_header():
-    """Lens, indicator lights, title and the stepped top edge."""
+    """Poké Ball emblem, indicator lights, swapped header typography and divider."""
     return f"""
+<!-- Poké Ball emblem -->
 <circle cx="78" cy="62" r="40" fill="#fff" stroke="{INK}" stroke-width="3"/>
-<circle cx="78" cy="62" r="30" fill="{RED}" stroke="{INK}" stroke-width="2"/>
-<circle cx="68" cy="51" r="9" fill="#fff" opacity=".7"/>
+<path d="M38 62 A40 40 0 0 1 118 62 H38 Z" fill="{RED}"/>
+<path d="M38 62 H118" fill="none" stroke="{INK}" stroke-width="6"/>
+<circle cx="78" cy="62" r="11" fill="#fff" stroke="{INK}" stroke-width="4"/>
 <circle cx="150" cy="34" r="9" fill="#ef3e3e" stroke="{INK}" stroke-width="2"/>
 <circle cx="178" cy="34" r="9" fill="{YELLOW}" stroke="{INK}" stroke-width="2"/>
 <circle cx="206" cy="34" r="9" fill="#3cc767" stroke="{INK}" stroke-width="2"/>
-<text x="140" y="86" class="title">TRAINER DEX</text>
-<text x="352" y="86" class="handle">@{escape(USERNAME.upper())}</text>
+<text x="140" y="86" class="title">@{escape(USERNAME.upper())}</text>
+<text x="430" y="84" class="handle">TRAINER DEX</text>
 <path d="M0 118 H560 L600 146 H960" fill="none" stroke="{INK}" stroke-width="3"/>
 <path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="{YELLOW}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>
 """
