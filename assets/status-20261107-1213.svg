@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Live status for ManyaJain111: Healing up at the Pokémon Center">
+<style>
+.title { font: 800 26px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1c2333; letter-spacing: 2px; }
+.handle { font: 700 16px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; letter-spacing: 1px; }
+.lcd-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; letter-spacing: .18em; }
+.lcd { font: 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; }
+.status { font: 800 27px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#13261a; }
+.repo { font: 700 21px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#13261a; }
+.msg { font: italic 14px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; opacity:.85; }
+.stat-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; letter-spacing: .14em; }
+.stat-v { font: 700 18px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1c2333; }
+.chip { font: 700 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1c2333; }
+.foot-k { font: 800 14px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1c2333; letter-spacing: 2px; }
+.foot { font: italic 12px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; }
+</style>
+<rect x="3" y="3" width="954" height="594" rx="28" fill="#f8eee3" stroke="#c8323f" stroke-width="6"/>
+<path d="M640 597 L668 576 H918 Q940 576 957 556 V569 Q957 597 929 597 Z" fill="#c8323f"/>
+
+<circle cx="78" cy="62" r="40" fill="#fff" stroke="#1c2333" stroke-width="3"/>
+<circle cx="78" cy="62" r="30" fill="#c8323f" stroke="#1c2333" stroke-width="2"/>
+<circle cx="68" cy="51" r="9" fill="#fff" opacity=".7"/>
+<circle cx="150" cy="34" r="9" fill="#ef3e3e" stroke="#1c2333" stroke-width="2"/>
+<circle cx="178" cy="34" r="9" fill="#ffc727" stroke="#1c2333" stroke-width="2"/>
+<circle cx="206" cy="34" r="9" fill="#3cc767" stroke="#1c2333" stroke-width="2"/>
+<text x="140" y="86" class="title">TRAINER DEX</text>
+<text x="352" y="86" class="handle">@MANYAJAIN111</text>
+<path d="M0 118 H560 L600 146 H960" fill="none" stroke="#1c2333" stroke-width="3"/>
+<path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="#ffc727" stroke="#1c2333" stroke-width="2.5" stroke-linejoin="round"/>
+
+
+<rect x="40" y="166" width="520" height="350" rx="16" fill="#edf0ea" stroke="#1c2333" stroke-width="3"/>
+<circle cx="276" cy="180" r="4" fill="#c8323f"/><circle cx="298" cy="180" r="4" fill="#c8323f"/>
+<rect x="64" y="192" width="472" height="278" rx="8" fill="#bfe8c9" stroke="#1c2333" stroke-width="2"/>
+<text x="88" y="216" class="lcd-k">RIGHT NOW</text>
+<text x="88" y="256" class="status">Healing up at the Pokémon</text><text x="88" y="290" class="status">Center</text>
+<text x="88" y="334" class="lcd">HABITAT  Hyderabad · 31°C · Sunny</text>
+<line x1="88" y1="350" x2="512" y2="350" stroke="#13261a" stroke-width="1" stroke-dasharray="4 4" opacity=".5"/>
+<text x="88" y="374" class="lcd-k">LAST SEEN  ·  11D AGO</text>
+<text x="88" y="402" class="repo">dvd-assignment</text>
+<text x="88" y="424" class="msg">“&quot;222239IST261026&quot; Save working tree”</text>
+<circle cx="84" cy="494" r="10" fill="#c8323f" stroke="#1c2333" stroke-width="2"/>
+<g stroke="#1c2333" stroke-width="3" stroke-linecap="round">
+  <line x1="470" y1="488" x2="530" y2="488"/><line x1="470" y1="497" x2="530" y2="497"/><line x1="470" y1="506" x2="530" y2="506"/>
+</g>
+
+
+<rect x="590" y="166" width="330" height="350" rx="12" fill="#fffaf3" stroke="#1c2333" stroke-width="3"/>
+<rect x="590" y="166" width="330" height="40" rx="12" fill="#ffc727" stroke="#1c2333" stroke-width="3"/>
+<rect x="592" y="190" width="326" height="16" fill="#ffc727"/>
+<line x1="590" y1="206" x2="920" y2="206" stroke="#1c2333" stroke-width="3"/>
+<text x="610" y="191" class="lcd-k" style="fill:#1c2333">BASE STATS</text>
+<text x="610" y="238" class="stat-k">REPOS</text><text x="900" y="238" class="stat-v" text-anchor="end">22</text><rect x="610" y="247" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="247" width="128" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="285" class="stat-k">STARS</text><text x="900" y="285" class="stat-v" text-anchor="end">0</text><rect x="610" y="294" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="294" width="0" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="332" class="stat-k">COMMITS / WEEK</text><text x="900" y="332" class="stat-v" text-anchor="end">3</text><rect x="610" y="341" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="341" width="22" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="379" class="stat-k">OPEN ISSUES</text><text x="900" y="379" class="stat-v" text-anchor="end">15</text><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="426" class="stat-k">OPEN PRS</text><text x="900" y="426" class="stat-v" text-anchor="end">11</text><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="473" class="stat-k">BEST STREAK</text><text x="900" y="473" class="stat-v" text-anchor="end">12 d</text><rect x="610" y="482" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="482" width="116" height="9" rx="4.5" fill="#ffc727"/>
+
+
+<text x="40" y="556" class="foot-k">MOVES</text>
+<rect x="124" y="538" width="154" height="26" rx="13" fill="#f5922f" stroke="#1c2333" stroke-width="2"/><text x="201" y="556" class="chip" text-anchor="middle" style="fill:#1c2333">Jupyter Notebook</text><rect x="288" y="538" width="74" height="26" rx="13" fill="#3572a5" stroke="#1c2333" stroke-width="2"/><text x="325" y="556" class="chip" text-anchor="middle" style="fill:#fff">Python</text><rect x="372" y="538" width="58" height="26" rx="13" fill="#e34c26" stroke="#1c2333" stroke-width="2"/><text x="401" y="556" class="chip" text-anchor="middle" style="fill:#fff">HTML</text><rect x="440" y="538" width="50" height="26" rx="13" fill="#7b3fb3" stroke="#1c2333" stroke-width="2"/><text x="465" y="556" class="chip" text-anchor="middle" style="fill:#fff">C++</text><rect x="500" y="538" width="50" height="26" rx="13" fill="#663399" stroke="#1c2333" stroke-width="2"/><text x="525" y="556" class="chip" text-anchor="middle" style="fill:#fff">CSS</text>
+<text x="920" y="556" class="foot" text-anchor="end">updated 2026-11-07 12:13 IST</text>
+
+</svg>
