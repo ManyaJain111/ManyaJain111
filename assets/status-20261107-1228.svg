@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Live status for ManyaJain111: Healing up at the Pokémon Center">
 <style>
-.title { font: 800 26px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1c2333; letter-spacing: 2px; }
-.handle { font: 700 16px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; letter-spacing: 1px; }
+.title { font: 800 28px system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill:#1c2333; letter-spacing: .5px; }
+.handle { font: 700 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; letter-spacing: .18em; }
 .lcd-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; letter-spacing: .18em; }
 .lcd { font: 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; }
-.status { font: 800 27px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#13261a; }
-.repo { font: 700 21px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#13261a; }
+.status { font: 800 27px system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill:#13261a; }
+.repo { font: 700 21px system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill:#13261a; }
 .msg { font: italic 14px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#13261a; opacity:.85; }
 .stat-k { font: 700 11px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; letter-spacing: .14em; }
 .stat-v { font: 700 18px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1c2333; }
 .chip { font: 700 13px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#1c2333; }
-.foot-k { font: 800 14px 'Trebuchet MS', Verdana, 'Segoe UI', sans-serif; fill:#1c2333; letter-spacing: 2px; }
+.foot-k { font: 800 14px system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill:#1c2333; letter-spacing: 2px; }
 .foot { font: italic 12px ui-monospace, 'SF Mono', Menlo, Consolas, monospace; fill:#4a5468; }
 </style>
 <rect x="3" y="3" width="954" height="594" rx="28" fill="#f8eee3" stroke="#c8323f" stroke-width="6"/>
@@ -21,11 +21,12 @@
 <path d="M38 62 A40 40 0 0 1 118 62 H38 Z" fill="#c8323f"/>
 <path d="M38 62 H118" fill="none" stroke="#1c2333" stroke-width="6"/>
 <circle cx="78" cy="62" r="11" fill="#fff" stroke="#1c2333" stroke-width="4"/>
-<circle cx="150" cy="34" r="9" fill="#ef3e3e" stroke="#1c2333" stroke-width="2"/>
-<circle cx="178" cy="34" r="9" fill="#ffc727" stroke="#1c2333" stroke-width="2"/>
-<circle cx="206" cy="34" r="9" fill="#3cc767" stroke="#1c2333" stroke-width="2"/>
-<text x="140" y="86" class="title">@MANYAJAIN111</text>
-<text x="430" y="84" class="handle">TRAINER DEX</text>
+<!-- Lights and title share the left edge x=140 and centre on the emblem -->
+<circle cx="150" cy="40" r="9" fill="#ef3e3e" stroke="#1c2333" stroke-width="2"/>
+<circle cx="178" cy="40" r="9" fill="#ffc727" stroke="#1c2333" stroke-width="2"/>
+<circle cx="206" cy="40" r="9" fill="#3cc767" stroke="#1c2333" stroke-width="2"/>
+<!-- tspans flow inline, so the label never overlaps whatever font loads -->
+<text x="140" y="92"><tspan class="title">@MANYAJAIN111</tspan><tspan class="handle" dx="18">TRAINER DEX</tspan></text>
 <path d="M0 118 H560 L600 146 H960" fill="none" stroke="#1c2333" stroke-width="3"/>
 <path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="#ffc727" stroke="#1c2333" stroke-width="2.5" stroke-linejoin="round"/>
 
@@ -51,11 +52,11 @@
 <rect x="592" y="190" width="326" height="16" fill="#ffc727"/>
 <line x1="590" y1="206" x2="920" y2="206" stroke="#1c2333" stroke-width="3"/>
 <text x="610" y="191" class="lcd-k" style="fill:#1c2333">BASE STATS</text>
-<text x="610" y="238" class="stat-k">REPOS</text><text x="900" y="238" class="stat-v" text-anchor="end">22</text><rect x="610" y="247" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="247" width="128" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="285" class="stat-k">STARS</text><text x="900" y="285" class="stat-v" text-anchor="end">2</text><rect x="610" y="294" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="294" width="12" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="332" class="stat-k">COMMITS / WEEK</text><text x="900" y="332" class="stat-v" text-anchor="end">4</text><rect x="610" y="341" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="341" width="29" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="379" class="stat-k">OPEN ISSUES</text><text x="900" y="379" class="stat-v" text-anchor="end">15</text><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="426" class="stat-k">OPEN PRS</text><text x="900" y="426" class="stat-v" text-anchor="end">11</text><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="473" class="stat-k">BEST STREAK</text><text x="900" y="473" class="stat-v" text-anchor="end">12 d</text><rect x="610" y="482" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="482" width="116" height="9" rx="4.5" fill="#ffc727"/>
+<text x="610" y="238" class="stat-k">REPOS</text><text x="900" y="238" class="stat-v" text-anchor="end">22</text><rect x="610" y="247" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="247" width="128" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="285" class="stat-k">STARS</text><text x="900" y="285" class="stat-v" text-anchor="end">2</text><rect x="610" y="294" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="294" width="12" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="332" class="stat-k">COMMITS / WEEK</text><text x="900" y="332" class="stat-v" text-anchor="end">5</text><rect x="610" y="341" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="341" width="36" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="379" class="stat-k">OPEN ISSUES</text><text x="900" y="379" class="stat-v" text-anchor="end">15</text><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="388" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="426" class="stat-k">OPEN PRS</text><text x="900" y="426" class="stat-v" text-anchor="end">11</text><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="435" width="290" height="9" rx="4.5" fill="#ffc727"/><text x="610" y="473" class="stat-k">BEST STREAK</text><text x="900" y="473" class="stat-v" text-anchor="end">12 d</text><rect x="610" y="482" width="290" height="9" rx="4.5" fill="#e6ddd0"/><rect x="610" y="482" width="116" height="9" rx="4.5" fill="#ffc727"/>
 
 
 <text x="40" y="556" class="foot-k">MOVES</text>
 <rect x="124" y="538" width="154" height="26" rx="13" fill="#f5922f" stroke="#1c2333" stroke-width="2"/><text x="201" y="556" class="chip" text-anchor="middle" style="fill:#1c2333">Jupyter Notebook</text><rect x="288" y="538" width="74" height="26" rx="13" fill="#3572a5" stroke="#1c2333" stroke-width="2"/><text x="325" y="556" class="chip" text-anchor="middle" style="fill:#fff">Python</text><rect x="372" y="538" width="58" height="26" rx="13" fill="#e34c26" stroke="#1c2333" stroke-width="2"/><text x="401" y="556" class="chip" text-anchor="middle" style="fill:#fff">HTML</text><rect x="440" y="538" width="50" height="26" rx="13" fill="#7b3fb3" stroke="#1c2333" stroke-width="2"/><text x="465" y="556" class="chip" text-anchor="middle" style="fill:#fff">C++</text><rect x="500" y="538" width="50" height="26" rx="13" fill="#663399" stroke="#1c2333" stroke-width="2"/><text x="525" y="556" class="chip" text-anchor="middle" style="fill:#fff">CSS</text>
-<text x="920" y="556" class="foot" text-anchor="end">updated 2026-11-07 12:25 IST</text>
+<text x="920" y="556" class="foot" text-anchor="end">updated 2026-11-07 12:28 IST</text>
 
 </svg>
