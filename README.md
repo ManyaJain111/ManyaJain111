@@ -1,13 +1,13 @@
-![Live status](assets/status-20261107-1451.svg)
+![Live status](assets/status-20261107-2003.svg)
 
 <!--
 ```json
 {
-  "status": "Healing up at the Pokémon Center",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "31°C",
-    "condition": "Cloudy "
+    "temperature": "27°C",
+    "condition": "Overcast "
   },
   "github": {
     "top_languages": [
@@ -23,8 +23,8 @@
     "current_streak": 6,
     "longest_streak": 12,
     "commits_last_7_days": 6,
-    "open_issues": 16,
-    "open_prs": 11,
+    "open_issues": 17,
+    "open_prs": 12,
     "total_repos": 22,
     "total_stars": 7,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-07 14:51 IST"
+  "updated": "2026-11-07 20:03 IST"
 }
 ```
 -->
