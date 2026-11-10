@@ -1,13 +1,13 @@
-![Live status](assets/status-20261110-1728.svg)
+![Live status](assets/status-20261111-0046.svg)
 
 <!--
 ```json
 {
-  "status": "A wild bug appeared!",
+  "status": "Gengar hours: coding in the dark",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "28°C",
-    "condition": "Sunny"
+    "temperature": "19°C",
+    "condition": "Smoky haze"
   },
   "github": {
     "top_languages": [
@@ -20,7 +20,7 @@
     "latest_active_repo": "contract-aware-reconciliation",
     "last_commit": "2026-11-09T04:07:05Z",
     "last_commit_message": "gitignored utility files",
-    "current_streak": 9,
+    "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 8,
     "open_issues": 18,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-10 17:28 IST"
+  "updated": "2026-11-11 00:46 IST"
 }
 ```
 -->
