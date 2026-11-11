@@ -1,13 +1,13 @@
-![Live status](assets/status-20261111-1411.svg)
+![Live status](assets/status-20261111-2307.svg)
 
 <!--
 ```json
 {
-  "status": "Healing up at the Pokémon Center",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "29°C",
-    "condition": "Sunny"
+    "temperature": "20°C",
+    "condition": "Smoky haze"
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-11 14:11 IST"
+  "updated": "2026-11-11 23:07 IST"
 }
 ```
 -->
