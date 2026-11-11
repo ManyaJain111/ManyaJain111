@@ -1,13 +1,13 @@
-![Live status](assets/status-20261111-0551.svg)
+![Live status](assets/status-20261111-1411.svg)
 
 <!--
 ```json
 {
-  "status": "Snorlax is blocking the path",
+  "status": "Healing up at the Pokémon Center",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "18°C",
-    "condition": "Smoky haze"
+    "temperature": "29°C",
+    "condition": "Sunny"
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-11 05:51 IST"
+  "updated": "2026-11-11 14:11 IST"
 }
 ```
 -->
