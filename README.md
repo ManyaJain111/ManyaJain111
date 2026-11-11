@@ -1,12 +1,12 @@
-![Live status](assets/status-20261111-2307.svg)
+![Live status](assets/status-20261112-0524.svg)
 
 <!--
 ```json
 {
-  "status": "Using Quick Attack on a deadline",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "20°C",
+    "temperature": "18°C",
     "condition": "Smoky haze"
   },
   "github": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-11 23:07 IST"
+  "updated": "2026-11-12 05:24 IST"
 }
 ```
 -->
