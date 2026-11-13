@@ -1,12 +1,12 @@
-![Live status](assets/status-20261113-1716.svg)
+![Live status](assets/status-20261114-0030.svg)
 
 <!--
 ```json
 {
-  "status": "A wild bug appeared!",
+  "status": "Gengar hours: coding in the dark",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "28°C",
+    "temperature": "19°C",
     "condition": "Overcast "
   },
   "github": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-13 17:16 IST"
+  "updated": "2026-11-14 00:30 IST"
 }
 ```
 -->
