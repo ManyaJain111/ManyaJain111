@@ -296,19 +296,22 @@ def wrap(text, width, rows):
 def render_header():
     """Poké Ball emblem, indicator lights, handle with dex label, and divider."""
     return f"""
-<!-- Poké Ball emblem -->
+<!-- Poké Ball emblem: wobbles like a catch in progress -->
+<g class="ball">
 <circle cx="78" cy="62" r="40" fill="#fff" stroke="{INK}" stroke-width="3"/>
 <path d="M38 62 A40 40 0 0 1 118 62 H38 Z" fill="{RED}"/>
 <path d="M38 62 H118" fill="none" stroke="{INK}" stroke-width="6"/>
 <circle cx="78" cy="62" r="11" fill="#fff" stroke="{INK}" stroke-width="4"/>
+<circle class="ball-btn" cx="78" cy="62" r="5" fill="{RED}"/>
+</g>
 <!-- Lights and title share the left edge x=140 and centre on the emblem -->
-<circle cx="150" cy="40" r="9" fill="#ef3e3e" stroke="{INK}" stroke-width="2"/>
-<circle cx="178" cy="40" r="9" fill="{YELLOW}" stroke="{INK}" stroke-width="2"/>
-<circle cx="206" cy="40" r="9" fill="#3cc767" stroke="{INK}" stroke-width="2"/>
+<circle class="light" cx="150" cy="40" r="9" fill="#ef3e3e" stroke="{INK}" stroke-width="2"/>
+<circle class="light" cx="178" cy="40" r="9" fill="{YELLOW}" stroke="{INK}" stroke-width="2" style="animation-delay:.4s"/>
+<circle class="light" cx="206" cy="40" r="9" fill="#3cc767" stroke="{INK}" stroke-width="2" style="animation-delay:.8s"/>
 <!-- tspans flow inline, so the label never overlaps whatever font loads -->
 <text x="140" y="92"><tspan class="title">@{escape(USERNAME.upper())}</tspan><tspan class="handle" dx="18">TRAINER DEX</tspan></text>
 <path d="M0 118 H560 L600 146 H960" fill="none" stroke="{INK}" stroke-width="3"/>
-<path d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="{YELLOW}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="bolt" d="M906 22 L876 66 H896 L884 104 L922 52 H900 L914 22 Z" fill="{YELLOW}" stroke="{INK}" stroke-width="2.5" stroke-linejoin="round"/>
 """
 
 
@@ -336,14 +339,17 @@ def render_screen(data):
 <rect x="40" y="166" width="520" height="350" rx="16" fill="#edf0ea" stroke="{INK}" stroke-width="3"/>
 <circle cx="276" cy="180" r="4" fill="{RED}"/><circle cx="298" cy="180" r="4" fill="{RED}"/>
 <rect x="64" y="192" width="472" height="278" rx="8" fill="{LCD}" stroke="{INK}" stroke-width="2"/>
+<g clip-path="url(#lcd-clip)"><rect class="scan" x="64" y="192" width="472" height="36" fill="url(#scan-grad)"/></g>
 <text x="88" y="216" class="lcd-k">RIGHT NOW</text>
+<circle class="live" cx="466" cy="212" r="4.5" fill="{RED}"/>
+<text x="512" y="216" class="lcd-k" text-anchor="end">LIVE</text>
 {status}
 <text x="88" y="334" class="lcd">HABITAT  {escape(habitat)}</text>
 <line x1="88" y1="350" x2="512" y2="350" stroke="{LCD_INK}" stroke-width="1" stroke-dasharray="4 4" opacity=".5"/>
 <text x="88" y="374" class="lcd-k">LAST SEEN  ·  {escape(ago(gh["last_commit"]).upper())}</text>
 <text x="88" y="402" class="repo">{repo}</text>
 {msg}
-<circle cx="84" cy="494" r="10" fill="{RED}" stroke="{INK}" stroke-width="2"/>
+<circle class="power" cx="84" cy="494" r="10" fill="{RED}" stroke="{INK}" stroke-width="2"/>
 <g stroke="{INK}" stroke-width="3" stroke-linecap="round">
   <line x1="470" y1="488" x2="530" y2="488"/><line x1="470" y1="497" x2="530" y2="497"/><line x1="470" y1="506" x2="530" y2="506"/>
 </g>
@@ -369,7 +375,7 @@ def render_stats(gh):
             f'<text x="610" y="{y}" class="stat-k">{label}</text>'
             f'<text x="900" y="{y}" class="stat-v" text-anchor="end">{escape(fmt(value, suffix))}</text>'
             f'<rect x="610" y="{y + 9}" width="290" height="9" rx="4.5" fill="{TRACK}"/>'
-            f'<rect x="610" y="{y + 9}" width="{fill:.0f}" height="9" rx="4.5" fill="{YELLOW}"/>'
+            f'<rect class="bar" x="610" y="{y + 9}" width="{fill:.0f}" height="9" rx="4.5" fill="{YELLOW}" style="animation-delay:{.3 + i * .12:.2f}s"/>'
         )
 
     return f"""
@@ -386,14 +392,16 @@ def render_footer(data):
     """Bottom strip: top languages as move chips, plus the update time."""
     chips = ""
     x = 124
-    for lang in data["github"]["top_languages"][:5]:
+    for i, lang in enumerate(data["github"]["top_languages"][:5]):
         width = len(lang) * 8 + 26
         if x + width > 680:
             break
         fill, text = CHIPS.get(lang, (YELLOW, INK))
         chips += (
+            f'<g class="chip-pop" style="animation-delay:{1.1 + i * .1:.1f}s">'
             f'<rect x="{x}" y="538" width="{width}" height="26" rx="13" fill="{fill}" stroke="{INK}" stroke-width="2"/>'
             f'<text x="{x + width / 2:.0f}" y="556" class="chip" text-anchor="middle" style="fill:{text}">{escape(lang)}</text>'
+            "</g>"
         )
         x += width + 10
 
@@ -423,7 +431,32 @@ def render_svg(data):
 .chip {{ font: 700 13px {mono}; fill:{INK}; }}
 .foot-k {{ font: 800 14px {sans}; fill:{INK}; letter-spacing: 2px; }}
 .foot {{ font: italic 12px {mono}; fill:{SLATE}; }}
+/* Animations: CSS keyframes still play when GitHub embeds the SVG as an image */
+.ball {{ transform-box: fill-box; transform-origin: 50% 100%; animation: wobble 4s ease-in-out infinite; }}
+.ball-btn {{ animation: btn 4s ease-in-out infinite; }}
+.light {{ animation: blink 2.4s ease-in-out infinite; }}
+.bolt {{ transform-box: fill-box; transform-origin: 50% 50%; animation: zap 3.2s ease-in-out infinite; }}
+.scan {{ animation: scan 3.5s linear infinite; }}
+.live {{ animation: blink 1.2s ease-in-out infinite; }}
+.power {{ animation: glow 2s ease-in-out infinite; }}
+.bar {{ transform-box: fill-box; transform-origin: 0 50%; animation: grow 1s cubic-bezier(.2,.8,.2,1) both; }}
+.chip-pop {{ transform-box: fill-box; transform-origin: 50% 50%; animation: pop .5s cubic-bezier(.3,1.6,.5,1) both; }}
+@keyframes wobble {{ 0%, 62%, 100% {{ transform: rotate(0); }} 68% {{ transform: rotate(-14deg); }} 76% {{ transform: rotate(11deg); }} 84% {{ transform: rotate(-6deg); }} 92% {{ transform: rotate(3deg); }} }}
+@keyframes btn {{ 0%, 60%, 96%, 100% {{ fill-opacity: 0; }} 66%, 90% {{ fill-opacity: 1; }} }}
+@keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: .3; }} }}
+@keyframes zap {{ 0%, 80%, 100% {{ opacity: 1; transform: scale(1); }} 84% {{ opacity: .35; transform: scale(1.12); }} 88% {{ opacity: 1; }} 92% {{ opacity: .5; }} }}
+@keyframes scan {{ from {{ transform: translateY(-40px); }} to {{ transform: translateY(290px); }} }}
+@keyframes glow {{ 0%, 100% {{ fill: {RED}; }} 50% {{ fill: #ff6b6b; }} }}
+@keyframes grow {{ from {{ transform: scaleX(0); }} to {{ transform: scaleX(1); }} }}
+@keyframes pop {{ from {{ opacity: 0; transform: scale(.4); }} to {{ opacity: 1; transform: scale(1); }} }}
+@media (prefers-reduced-motion: reduce) {{ * {{ animation: none !important; }} }}
 </style>
+<defs>
+<clipPath id="lcd-clip"><rect x="64" y="192" width="472" height="278" rx="8"/></clipPath>
+<linearGradient id="scan-grad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+</defs>
 <rect x="3" y="3" width="954" height="594" rx="28" fill="{CREAM}" stroke="{RED}" stroke-width="6"/>
 <path d="M640 597 L668 576 H918 Q940 576 957 556 V569 Q957 597 929 597 Z" fill="{RED}"/>
 {render_header()}
