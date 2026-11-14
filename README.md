@@ -1,9 +1,9 @@
-![Live status](assets/status-20261115-0106.svg)
+![Live status](assets/status-20261115-0321.svg)
 
 <!--
 ```json
 {
-  "status": "Gengar hours: coding in the dark",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
     "temperature": "19°C",
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-15 01:06 IST"
+  "updated": "2026-11-15 03:21 IST"
 }
 ```
 -->
