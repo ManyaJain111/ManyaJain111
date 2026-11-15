@@ -1,13 +1,13 @@
-![Live status](assets/status-20261115-0657.svg)
+![Live status](assets/status-20261115-1410.svg)
 
 <!--
 ```json
 {
-  "status": "Training at the gym for the next badge",
+  "status": "Healing up at the Pokémon Center",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "19°C",
-    "condition": "Smoky haze"
+    "temperature": "29°C",
+    "condition": "Partly Cloudy "
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-15 06:57 IST"
+  "updated": "2026-11-15 14:10 IST"
 }
 ```
 -->
