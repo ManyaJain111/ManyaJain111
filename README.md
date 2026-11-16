@@ -1,12 +1,12 @@
-![Live status](assets/status-20261116-1954.svg)
+![Live status](assets/status-20261117-0525.svg)
 
 <!--
 ```json
 {
-  "status": "A wild bug appeared!",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "24°C",
+    "temperature": "18°C",
     "condition": "Smoky haze"
   },
   "github": {
@@ -17,9 +17,9 @@
       "TeX",
       "C++"
     ],
-    "latest_active_repo": "PictoPy",
-    "last_commit": "2026-11-15T09:47:04Z",
-    "last_commit_message": "fix: keep a locked album hidden even when opened without a password",
+    "latest_active_repo": "CircuitVerse",
+    "last_commit": "2026-10-23T16:50:18Z",
+    "last_commit_message": "fix: remove collaboration update route to prevent privilege escalation",
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 19,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-16 19:54 IST"
+  "updated": "2026-11-17 05:25 IST"
 }
 ```
 -->
