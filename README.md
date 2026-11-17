@@ -1,13 +1,13 @@
-![Live status](assets/status-20261117-2047.svg)
+![Live status](assets/status-20261118-0445.svg)
 
 <!--
 ```json
 {
-  "status": "Using Quick Attack on a deadline",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "22°C",
-    "condition": "Overcast "
+    "temperature": "20°C",
+    "condition": "Partly Cloudy "
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-17 20:47 IST"
+  "updated": "2026-11-18 04:45 IST"
 }
 ```
 -->
