@@ -1,13 +1,13 @@
-![Live status](assets/status-20261117-0525.svg)
+![Live status](assets/status-20261117-1124.svg)
 
 <!--
 ```json
 {
-  "status": "Snorlax is blocking the path",
+  "status": "Pikachu used Thunderbolt on the backlog",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "18°C",
-    "condition": "Smoky haze"
+    "temperature": "29°C",
+    "condition": "Partly Cloudy "
   },
   "github": {
     "top_languages": [
@@ -22,7 +22,7 @@
     "last_commit_message": "fix: remove collaboration update route to prevent privilege escalation",
     "current_streak": 0,
     "longest_streak": 12,
-    "commits_last_7_days": 19,
+    "commits_last_7_days": 17,
     "open_issues": 17,
     "open_prs": 12,
     "total_repos": 24,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-17 05:25 IST"
+  "updated": "2026-11-17 11:24 IST"
 }
 ```
 -->
