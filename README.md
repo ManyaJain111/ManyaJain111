@@ -1,13 +1,13 @@
-![Live status](assets/status-20261118-0445.svg)
+![Live status](assets/status-20261118-1053.svg)
 
 <!--
 ```json
 {
-  "status": "Snorlax is blocking the path",
+  "status": "Pikachu used Thunderbolt on the backlog",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "20°C",
-    "condition": "Partly Cloudy "
+    "temperature": "26°C",
+    "condition": "Smoky haze"
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-18 04:45 IST"
+  "updated": "2026-11-18 10:53 IST"
 }
 ```
 -->
