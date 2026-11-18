@@ -1,13 +1,13 @@
-![Live status](assets/status-20261118-2023.svg)
+![Live status](assets/status-20261119-0417.svg)
 
 <!--
 ```json
 {
-  "status": "Using Quick Attack on a deadline",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "22°C",
-    "condition": "Partly Cloudy "
+    "temperature": "18°C",
+    "condition": "Clear "
   },
   "github": {
     "top_languages": [
@@ -20,7 +20,7 @@
     "latest_active_repo": "CircuitVerse",
     "last_commit": "2026-10-23T16:50:18Z",
     "last_commit_message": "fix: remove collaboration update route to prevent privilege escalation",
-    "current_streak": 0,
+    "current_streak": 2,
     "longest_streak": 12,
     "commits_last_7_days": 17,
     "open_issues": 17,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-18 20:23 IST"
+  "updated": "2026-11-19 04:17 IST"
 }
 ```
 -->
