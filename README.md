@@ -1,12 +1,12 @@
-![Live status](assets/status-20261119-1049.svg)
+![Live status](assets/status-20261119-2029.svg)
 
 <!--
 ```json
 {
-  "status": "Pikachu used Thunderbolt on the backlog",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "24°C",
+    "temperature": "20°C",
     "condition": "Smoky haze"
   },
   "github": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-19 10:49 IST"
+  "updated": "2026-11-19 20:29 IST"
 }
 ```
 -->
