@@ -1,13 +1,13 @@
-![Live status](assets/status-20261120-1035.svg)
+![Live status](assets/status-20261120-2011.svg)
 
 <!--
 ```json
 {
-  "status": "Pikachu used Thunderbolt on the backlog",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "24°C",
-    "condition": "Smoky haze"
+    "temperature": "26°C",
+    "condition": "Cloudy "
   },
   "github": {
     "top_languages": [
@@ -20,11 +20,11 @@
     "latest_active_repo": "CircuitVerse",
     "last_commit": "2026-10-23T16:50:18Z",
     "last_commit_message": "fix: remove collaboration update route to prevent privilege escalation",
-    "current_streak": 0,
+    "current_streak": 3,
     "longest_streak": 12,
     "commits_last_7_days": 15,
     "open_issues": 17,
-    "open_prs": 12,
+    "open_prs": 13,
     "total_repos": 24,
     "total_stars": 13,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-20 10:35 IST"
+  "updated": "2026-11-20 20:11 IST"
 }
 ```
 -->
