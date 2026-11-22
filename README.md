@@ -1,13 +1,13 @@
-![Live status](assets/status-20261122-1439.svg)
+![Live status](assets/status-20261122-2302.svg)
 
 <!--
 ```json
 {
-  "status": "Healing up at the Pokémon Center",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "31°C",
-    "condition": "Sunny"
+    "temperature": "24°C",
+    "condition": "Clear "
   },
   "github": {
     "top_languages": [
@@ -22,9 +22,9 @@
     "last_commit_message": "fix: keep album page requests running while offline",
     "current_streak": 1,
     "longest_streak": 12,
-    "commits_last_7_days": 14,
-    "open_issues": 20,
-    "open_prs": 17,
+    "commits_last_7_days": 15,
+    "open_issues": 19,
+    "open_prs": 16,
     "total_repos": 24,
     "total_stars": 13,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-22 14:39 IST"
+  "updated": "2026-11-22 23:02 IST"
 }
 ```
 -->
