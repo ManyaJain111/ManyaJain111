@@ -1,13 +1,13 @@
-![Live status](assets/status-20261122-0150.svg)
+![Live status](assets/status-20261122-0720.svg)
 
 <!--
 ```json
 {
-  "status": "Gengar hours: coding in the dark",
+  "status": "Training at the gym for the next badge",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "21°C",
-    "condition": "Clear "
+    "temperature": "20°C",
+    "condition": "Smoky haze"
   },
   "github": {
     "top_languages": [
@@ -22,9 +22,9 @@
     "last_commit_message": "feat: show Leave button and leave message for collaborators (#7842)",
     "current_streak": 1,
     "longest_streak": 12,
-    "commits_last_7_days": 15,
-    "open_issues": 18,
-    "open_prs": 15,
+    "commits_last_7_days": 14,
+    "open_issues": 20,
+    "open_prs": 16,
     "total_repos": 24,
     "total_stars": 13,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-22 01:50 IST"
+  "updated": "2026-11-22 07:20 IST"
 }
 ```
 -->
