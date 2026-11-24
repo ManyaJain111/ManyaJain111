@@ -1,13 +1,13 @@
-![Live status](assets/status-20261124-0910.svg)
+![Live status](assets/status-20261124-1957.svg)
 
 <!--
 ```json
 {
-  "status": "Pikachu used Thunderbolt on the backlog",
+  "status": "A wild bug appeared!",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "25°C",
-    "condition": "Partly Cloudy "
+    "temperature": "28°C",
+    "condition": "Cloudy "
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-24 09:10 IST"
+  "updated": "2026-11-24 19:57 IST"
 }
 ```
 -->
