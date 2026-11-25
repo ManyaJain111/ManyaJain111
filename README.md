@@ -1,13 +1,13 @@
-![Live status](assets/status-20261125-0545.svg)
+![Live status](assets/status-20261125-1614.svg)
 
 <!--
 ```json
 {
-  "status": "Snorlax is blocking the path",
+  "status": "A wild bug appeared!",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "22°C",
-    "condition": "Partly Cloudy "
+    "temperature": "27°C",
+    "condition": "Patchy light drizzle"
   },
   "github": {
     "top_languages": [
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-25 05:45 IST"
+  "updated": "2026-11-25 16:14 IST"
 }
 ```
 -->
