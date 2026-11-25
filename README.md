@@ -1,13 +1,13 @@
-![Live status](assets/status-20261125-1614.svg)
+![Live status](assets/status-20261126-0224.svg)
 
 <!--
 ```json
 {
-  "status": "A wild bug appeared!",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "27°C",
-    "condition": "Patchy light drizzle"
+    "temperature": "22°C",
+    "condition": "Light rain shower"
   },
   "github": {
     "top_languages": [
@@ -23,8 +23,8 @@
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 1,
-    "open_issues": 19,
-    "open_prs": 17,
+    "open_issues": 21,
+    "open_prs": 18,
     "total_repos": 24,
     "total_stars": 13,
     "most_starred_repo": {
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-25 16:14 IST"
+  "updated": "2026-11-26 02:24 IST"
 }
 ```
 -->
