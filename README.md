@@ -1,13 +1,13 @@
-![Live status](assets/status-20261126-1854.svg)
+![Live status](assets/status-20261127-0413.svg)
 
 <!--
 ```json
 {
-  "status": "A wild bug appeared!",
+  "status": "Snorlax is blocking the path",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "25°C",
-    "condition": "Light rain shower"
+    "temperature": "21°C",
+    "condition": "Patchy rain nearby"
   },
   "github": {
     "top_languages": [
@@ -18,12 +18,12 @@
       "C++"
     ],
     "latest_active_repo": "cv-frontend-vue",
-    "last_commit": "2026-11-25T21:19:01Z",
-    "last_commit_message": "fix: sync renamed name into store instead of reloading the editor",
-    "current_streak": 3,
+    "last_commit": "2026-11-24T10:57:56Z",
+    "last_commit_message": "fix: preserve state when undo or redo restoration fails (#1567) (#1568)",
+    "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 2,
-    "open_issues": 20,
+    "open_issues": 21,
     "open_prs": 17,
     "total_repos": 24,
     "total_stars": 13,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-26 18:54 IST"
+  "updated": "2026-11-27 04:13 IST"
 }
 ```
 -->
