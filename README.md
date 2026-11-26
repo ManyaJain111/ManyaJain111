@@ -1,13 +1,13 @@
-![Live status](assets/status-20261126-0224.svg)
+![Live status](assets/status-20261126-0921.svg)
 
 <!--
 ```json
 {
-  "status": "Snorlax is blocking the path",
+  "status": "Pikachu used Thunderbolt on the backlog",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "22°C",
-    "condition": "Light rain shower"
+    "temperature": "24°C",
+    "condition": "Patchy rain nearby"
   },
   "github": {
     "top_languages": [
@@ -17,9 +17,9 @@
       "TeX",
       "C++"
     ],
-    "latest_active_repo": "PictoPy",
-    "last_commit": "2026-11-20T09:07:16Z",
-    "last_commit_message": "fix: restore setup guide screenshot (#1745)",
+    "latest_active_repo": "cv-frontend-vue",
+    "last_commit": "2026-11-25T21:19:01Z",
+    "last_commit_message": "fix: sync renamed name into store instead of reloading the editor",
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 1,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-26 02:24 IST"
+  "updated": "2026-11-26 09:21 IST"
 }
 ```
 -->
