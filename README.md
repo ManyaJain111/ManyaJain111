@@ -1,13 +1,13 @@
-![Live status](assets/status-20261127-1132.svg)
+![Live status](assets/status-20261127-2156.svg)
 
 <!--
 ```json
 {
-  "status": "Pikachu used Thunderbolt on the backlog",
+  "status": "Using Quick Attack on a deadline",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "27°C",
-    "condition": "Patchy rain nearby"
+    "temperature": "24°C",
+    "condition": "Clear "
   },
   "github": {
     "top_languages": [
@@ -18,8 +18,8 @@
       "C++"
     ],
     "latest_active_repo": "cv-frontend-vue",
-    "last_commit": "2026-11-24T10:57:56Z",
-    "last_commit_message": "fix: preserve state when undo or redo restoration fails (#1567) (#1568)",
+    "last_commit": "2026-11-25T20:25:40Z",
+    "last_commit_message": "fix: redirect to simulator edit page so the saved name is reloaded",
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 2,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-27 11:32 IST"
+  "updated": "2026-11-27 21:56 IST"
 }
 ```
 -->
