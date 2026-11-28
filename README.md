@@ -1,13 +1,13 @@
-![Live status](assets/status-20261127-2156.svg)
+![Live status](assets/status-20261128-0625.svg)
 
 <!--
 ```json
 {
-  "status": "Using Quick Attack on a deadline",
+  "status": "Training at the gym for the next badge",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "24°C",
-    "condition": "Clear "
+    "temperature": "20°C",
+    "condition": "Smoky haze"
   },
   "github": {
     "top_languages": [
@@ -18,8 +18,8 @@
       "C++"
     ],
     "latest_active_repo": "cv-frontend-vue",
-    "last_commit": "2026-11-25T20:25:40Z",
-    "last_commit_message": "fix: redirect to simulator edit page so the saved name is reloaded",
+    "last_commit": "2026-11-25T22:07:05Z",
+    "last_commit_message": "fix(timing-diagram): correct CSV export (timestamp order, duplicates, writeFile API, unique filename)",
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 2,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-27 21:56 IST"
+  "updated": "2026-11-28 06:25 IST"
 }
 ```
 -->
