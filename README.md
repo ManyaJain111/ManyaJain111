@@ -1,13 +1,13 @@
-![Live status](assets/status-20261128-0625.svg)
+![Live status](assets/status-20261128-1509.svg)
 
 <!--
 ```json
 {
-  "status": "Training at the gym for the next badge",
+  "status": "A wild bug appeared!",
   "weather": {
     "location": "Hyderabad",
-    "temperature": "20°C",
-    "condition": "Smoky haze"
+    "temperature": "29°C",
+    "condition": "Sunny"
   },
   "github": {
     "top_languages": [
@@ -17,9 +17,9 @@
       "TeX",
       "C++"
     ],
-    "latest_active_repo": "cv-frontend-vue",
-    "last_commit": "2026-11-25T22:07:05Z",
-    "last_commit_message": "fix(timing-diagram): correct CSV export (timestamp order, duplicates, writeFile API, unique filename)",
+    "latest_active_repo": "CircuitVerse",
+    "last_commit": "2026-11-26T13:54:37Z",
+    "last_commit_message": "Merge branch 'master' into freeze-submission-on-close-8032",
     "current_streak": 0,
     "longest_streak": 12,
     "commits_last_7_days": 2,
@@ -32,7 +32,7 @@
       "stars": 1
     }
   },
-  "updated": "2026-11-28 06:25 IST"
+  "updated": "2026-11-28 15:09 IST"
 }
 ```
 -->
